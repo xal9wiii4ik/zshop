@@ -5,6 +5,6 @@ This is the fourth my layout.
 
 To check all the beauty of this layout follow this link):
 
-# https://xal9wiii4ik.github.io/zshop/index.html
+# https://xal9wiii4ik.github.io/zshop/
 
 # date the code was written: 21.12.2020
