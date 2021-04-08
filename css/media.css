@@ -1,0 +1,135 @@
+@media all and (max-width: 910.01px){
+  header .header__logo {
+    width: 25%;
+  }
+  .menu__item:not(:last-child)  /*все кроме ласт чайлда*/ {
+
+    display: none ;
+  }
+  header .header__nav{
+    width: auto;
+  }
+  .burger--open {
+
+    display: block;
+  }
+}
+
+@media all and (max-width: 822.01px) {
+  #about .container {
+    background: #fff;
+    padding-left: 0px;
+  }
+
+  #about .about__info {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .footer__info .footer__info__wrapper {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .footer__info .footer__info__item-2 {
+    display: none;
+  }
+}
+
+@media all and (max-width: 775.01px) {
+  .company__copyright {
+    width: auto;
+  }
+}
+
+@media all and (max-width: 740.01px) {
+  #contactme .container .contactme {
+    width: 80%;
+  }
+
+  .footer__info .footer__info__wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 40px;
+  }
+}
+
+@media all and (max-width: 700.01px) {
+  .products__wrapper{
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3, 300px);
+  }
+  .products__wrapper .product__item{
+    grid-column: 1/7;
+  }
+  .products__wrapper .product__item:nth-child(n+4){
+    display: none;
+  }
+}
+
+@media all and (max-width: 640.01px) {
+  .brands__wrapper{
+    grid-template-columns: 1fr 1fr;
+  }
+  .brand__item:nth-child(n+3){
+    display: none;
+  }
+}
+
+@media all and (max-width: 530.01px) {
+  .contactme__subtitle {
+    text-align: center;
+    width: 90%;
+    padding: 0px 10px;
+  }
+
+  #contactme .container .contactme__description {
+    max-width: 90%;
+  }
+
+  #contactme .container .contactme {
+    flex-direction: column;
+  }
+
+  #contactme .container .contactme input{
+    margin-bottom: 20px;
+    width: 90%;
+  }
+
+  .footer__info {
+      padding: 30px 25px 0px;
+  }
+
+  .footer__info .footer__info__item-1 {
+    display: none;
+  }
+
+  .company__icons {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 440.01px) {
+    header .header__logo {
+      width: 40%;
+    }
+    .company__icons {
+        flex-wrap: wrap;
+    }
+  .company__icons a {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  .brands__wrapper{
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 150px;
+    grid-row-gap: 15px;
+  }
+  .brand__item{
+
+  }
+}

@@ -1,0 +1,145 @@
+@media all and (max-width: 999.01px) {
+  form {
+    justify-content: space-around;
+  }
+
+  input {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 982.01px) {
+
+  #contact form {
+    flex-direction: column;
+  }
+
+  #contact input {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  #contact textarea {
+    width: 100%;
+  }
+
+  .header__menu__item:not(:last-child)  /*все кроме ласт чайлда*/ {
+
+    display: none;
+  }
+
+  header .header__nav{
+    width: auto;
+  }
+  .header__menu__item.burger--open {
+
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 1025.01px) {
+  .all__txt {
+    padding: 20px;
+  }
+}
+ @media all and (max-width: 823.01px) {
+
+  #blog .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media all and (max-width: 756.01px) {
+  .blog__content_l {
+    padding: 40px;
+  }
+
+  .blog__content_r {
+    padding: 40px;
+  }
+
+  .blog__item__s {
+    display: none;
+  }
+
+  .footer__recent {
+    display: none;
+  }
+
+  .footer__info {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media all and (max-width: 615.01px) {
+
+  .footer__info {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 40px;
+  }
+
+  .footer__info__aboutus {
+    padding-left: 40px;
+  }
+}
+
+@media all and (max-width: 541.01px) {
+  #blog .container {
+    grid-template-columns: 1fr;
+  }
+
+  .blog__content_r {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .blog__content__title {
+    width: 100%;
+  }
+
+  .blog__item__f:first-child {
+    display: none;
+  }
+
+  .copyright__title {
+    font-size: 18px;
+  }
+}
+
+@media all and (max-width: 521.01px) {
+
+  .copyright__title {
+    font-size: 17px;
+  }
+}
+
+@media all and (max-width: 415.01px) {
+
+  .copyright__title {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 376.01px) {
+
+  .copyright__title {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 321.01px) {
+
+  .copyright__title {
+    font-size: 11px;
+  }
+}
+
+@media all and (max-width: 281.01px) {
+
+  .copyright__title {
+    font-size: 9px;
+  }
+}
